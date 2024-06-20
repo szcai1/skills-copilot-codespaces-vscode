@@ -1,11 +1,6 @@
-// Create Web Server
-// Create a new Express application
+// Create web server
 const express = require("express");
 const app = express();
 
-// Create an array of comments
-let comments = [
-  {
-    id: 1
-    }
-];
+// Import comments data
+const comments = require("./data/comments");
