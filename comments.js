@@ -6,4 +6,6 @@ const app = express();
 // Create an array of comments
 let comments = [
   {
-    id: 1,
+    id: 1
+    }
+];
